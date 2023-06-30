@@ -82,7 +82,7 @@ section{
     padding: 160px 15% 120px;
 }
 .home{
-    background-image: url(../images/psu.jpg);
+    background-image: url(images/psu.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
