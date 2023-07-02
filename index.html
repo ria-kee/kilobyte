@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="=width=device-width, initial-scale=1.0">
+        <title>Kilobyte</title>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet"
+         href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <script src="https://unpkg.com/scrollreveal"></script>
+    </head>
+    <body>
+        <!--HEADER DESIGN-->
+    <header>
+        <a href="#" class="name">kilo.<span>bytes</span></a>
+         
+            <ul class="navlist">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        <div class="bx bx-menu" id="menu-icon">
+        </div>
+    </header>
+
+      <!--HOME DESIGN-->
+      <section class="home " id="home">
+        <div class="home-text">
+            <div class="slide">
+                <span class="one">Hi there!</span>
+                <span class="two">We are</span>
+            </div>
+            <h1 class ="myname">the Developers</h1>
+            <h3 class="myline">of the sytem<span> PACADA</span></h3>
+            <p class="quote">A Leave Credit System for DOST Regional Office No. 1</p>
+
+        </div>  
+       
+       
+        </div>
+      </section>    
+    
+      <!--ABOUT DESIGN--> 
+        <section class="about" id="about1">
+        
+        <div class="about-img">
+            <img src="images/about3.jpg">
+            </div>
+
+            <div class="about-text">
+                <h4>About Me</h4>
+                <h2>Lead <span>Programmer</span></h2>
+                <p>I am Maria Karla Ruamero, an aspiring full stack developer. I experienced coding 
+                    with HTML, CSS, Javascript, C Language, PHP, and Flutter Framework.
+                    <br><br>
+                    I am driven to enhance my abilities and put in the effort necessary to excel in my career. 
+                    I have come to understand that acquiring new skills, particularly in programming, requires 
+                    dedication and the right attitude.
+                </p>
+            </div>
+
+        </section>
+
+              <!--ABOUT DESIGN--> 
+              <section class="about1" id="about2">
+        
+                <div class="about-img">
+                    <img src="images/about2.jpg">
+                    </div>
+        
+                    <div class="about-text1">
+                        <h4>About Me</h4>
+                        <h2>Support<span> Programmer</span></h2>
+                        <p>I am Lester Bryan Nacar, an aspiring full stack developer and graphics and video editor. I experienced coding 
+                            with HTML, CSS, Javascript, C Language, and PHP.
+                            <br><br>
+                            I also enjoy multimedia design. I wanted to develop my skills using video and graphics design softwares.  
+                            
+                        </p>
+                    </div>
+
+                </section>
+
+      
+
+          
+
+
+        <!--CONTACT DESIGN-->
+        <section class="contact" id="contact">
+            <div class="contact-text">
+                <h2>CONTACT US</h2>
+                <h4>Send a message</h4>
+                <p>Feel free to contact us if you have any projects in mind.</p>
+
+            <div class="list">
+                <li><a><i class='bx bxs-phone'></i> 09664159214 | 09618145848</a></li>
+                <li> <a href="mailto:kilobyteservice.ph@gmail.com"><i class='bx bxs-envelope'></i> kilobyteservice.ph@gmail.com</a></li>
+                <li> <a href="https://www.google.com/maps/place/Alaminos,+Pangasinan/@16.1440731,119.9197846,12z/data=!3m1!4b1!4m5!3m4!1s0x3393dccf6d009e91:0xd49a89904cd7374e!8m2!3d16.1505441!4d119.9856377" target=""><i class='bx bxs-home'></i> Pangasinan, Philippines</a></li>
+            </div>
+            </div>
+                <div class="contact-form">
+                    <form action="https://formsubmit.co/63c1379ded0f250350cffec0dc45b30c" method="POST">
+                        <!--Honeypot -->
+                        <input type="text" name="_honey"  style="display:none;">
+                        <!-- End of Honeypot -->
+
+                        <!--Disable CAPTCHA -->
+                         <input type="hidden" name="_captcha" value="false">
+                        <!-- End of CAPTCHA -->
+                        
+                          <!--Success -->
+                          <input type="hidden" name="_next" value="https://ria-kee.github.io/kilobyte/success.html">
+                          <!-- End of Success -->
+
+
+                        <input type="name" name="name" placeholder="Your Name" required>
+                        
+                        <input type="email" name="email" placeholder="Your Email" required>
+
+                        <input type="" name="phone" placeholder="Your Mobile Number" required>
+
+                        <textarea name="message" id="" cols="35" rows="10" placeholder="How Can We Help You" required></textarea>
+                        <input type="submit" value="Send Message" class="submit" required>
+                    </form>
+                </div>
+        </section>
+
+        <section class="end">
+            <div class="last-text">
+            <p>Copyright ©2023 by kilobyte All Rights Reserved.</p>
+        </div>
+        <div class="top">
+            <a href="#"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+        </section>
+        
+        
+        <!--Scroll Effects-->
+        <script>
+            ScrollReveal({
+                reset:true,
+                distance: '60px',
+                duration: 2500,
+                delay: 400
+            });
+    
+            <!--Scroll Effects Sections-->
+            ScrollReveal().reveal('.myname,.myline,.quote',{ delay:300, origin: 'left'});
+            ScrollReveal().reveal('.button',{ delay:400, origin: 'bottom'});
+           
+            ScrollReveal().reveal('.about-me',{ delay:300, origin: 'right'});
+            ScrollReveal().reveal('.about-text',{ delay:300, origin: 'left'});
+            ScrollReveal().reveal('.about-img',{ delay:300, origin: 'top'});
+            ScrollReveal().reveal('.service-head',{ delay:0, origin: 'top'});
+            
+            ScrollReveal().reveal('.about-me1',{ delay:300, origin: 'right'});
+            ScrollReveal().reveal('.about-text1',{ delay:300, origin: 'left'});
+            ScrollReveal().reveal('.about-img1',{ delay:300, origin: 'top'});
+            ScrollReveal().reveal('.service-head',{ delay:0, origin: 'top'});
+         
+
+        
+
+            
+
+        </script>
+    
+        <!--JS Link-->
+        <script type="text/javascript" src="script.js"></script>
+    
+</body>
+</html>
